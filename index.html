@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="mark ">
+        <div class="container">
+            <div class=" marker1 text-center ">
+               
+                <h1 class=" mt-5 position-relative z-2 text-center  d-block">Bookmarker</h1>
+                
+                <div class="momm"></div>
+                
+                
+                <h3 class="mt-5  "> <i class="fa-regular fa-bookmark m-2"></i><span>bookmark your favorite sites</span><i class="fa-regular fa-bookmark m-2"></i>  </h3>
+
+
+            </div>
+            <div class="mb-4 mt-4">
+                <i class="fa-regular fa-bookmark"></i>
+                <label for="Bookmark Name" class="form-label">Sit Name</label>
+                <input type="text" class="form-control border-success" id="newTask"oninput="valiatetaskInput()" placeholder="Bookmark Name">
+              </div>
+              
+
+              
+              
+                <div class="mb-4 mt-4">
+                    <i class="fa-brands fa-ubuntu"></i>
+                    <label for="exampleFormControlInput1" class="form-label">Sit url</label>
+                    <input type="text" class="form-control border-success"oninput="valiatenormalInput()" id="normalTask" placeholder="Website Url">
+                  </div>
+                  
+         
+           <button onclick="addTask()" class="btn btn-danger text-center m-auto d-block mt-3">submt</button>
+           <div class="mom"></div>
+        
+        <table class="table mt-4 text-center bg-light m-auto">
+            <thead>
+             
+                <tr>
+                  <th class="text-capitalize">index</td>
+                <th class="text-capitalize">Website Name</th>
+                <th class="text-capitalize">Visit</th>
+                <th class="text-capitalize">Delete</th>
+              </tr>
+             
+             
+          </thead>
+          <tbody id="allTasks">
+            
+        </tbody>
+            
+          </table>
+    
+    </div>
+   
+      
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
