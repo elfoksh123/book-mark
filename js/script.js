@@ -104,7 +104,7 @@ function valiatetaskInput(){
     
 }
 function valiatenormalInput(){
-    var regex= /^(https|google)$/
+    var regex= /^(https|google)?[a-z0-9-]+\.[a-z]{2,6}$/
     var productUrl=normalInput.value
     if(regex.test(normalInput.value)){
         normalInput.classList.add("is-valid")

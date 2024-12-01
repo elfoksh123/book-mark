@@ -10,6 +10,16 @@
     padding: 30px;
     
 }
+ .marker1 h3{
+    background-image: linear-gradient(to right, green, yellow);
+    background-clip: text;
+    color: transparent;
+}
+.marker1 i{
+    color: #fd7e14;
+    /* background-color: greenyellow; */
+}
+
 .marker1 h1::after {
     content: "";
     position: absolute;
